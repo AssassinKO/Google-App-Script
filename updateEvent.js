@@ -36,7 +36,7 @@ function updateFunction(e) {
 
         dateAndTime -= 69540000;
         dateAndTime_2 -= 69540000;
-      var calendar = CalendarApp.getCalendarById("Stewart");
+      var calendar = CalendarApp.getCalendarById("CalendarId");
       var events = calendar.getEvents(new Date(dateAndTime), new Date(dateAndTime_2));
       for(var i = 0; i< events.length; i++) {
       events[i].deleteEvent();

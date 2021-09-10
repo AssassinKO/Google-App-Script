@@ -58,7 +58,7 @@ function firstFunction(e) {
       var teamPhone = sheet[40];
     }
 
-    var eventCal = CalendarApp.getCalendarById("Stewart");
+    var eventCal = CalendarApp.getCalendarById("CalendarId");
     var signup = spreadsheet.getRange("AH" + row1).getValue();
     console.log("signup", signup);
     if(payStatus != "" && row <= row1) {
